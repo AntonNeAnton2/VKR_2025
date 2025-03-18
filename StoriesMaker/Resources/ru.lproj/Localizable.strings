@@ -1,0 +1,276 @@
+"library" = "Библиотека";
+"new" = "Новая история";
+
+// MARK: - Settings
+"settings.settings" = "Настройки";
+"settings.help" = "Поддержка";
+"settings.rateUs" = "Оцените нас";
+"settings.shareApp" = "Поделиться приложением";
+"settings.changeLanguage" = "Сменить язык";
+"settings.changeLanguageAlertMessage" = "Чтобы сменить язык приложения, перейдите в Настройки устройства";
+"settings.privacyAndTerms" = "Политика конф. и условия исп.";
+"settings.privacyPolicy" = "Политика конфиденциальности";
+"settings.termsOfUse" = "Условия использования";
+"settings.cancel" = "Отмена";
+"settings.failedToCompose" = "Не удалось составить электронное письмо";
+"settings.pleaseSendToAddress" = "Пожалуйста, отправьте письмо на следующий адрес: %@";
+"settings.email.subject" = "Проблема с Magic Journeys";
+"settings.email.body" = "<p>Здравствуйте, команда Magic Journeys! Пожалуйста, помогите мне решить мою проблему:</p><p>❗ОПИШИТЕ ВАШУ ПРОБЛЕМУ ЗДЕСЬ❗</p>";
+
+// MARK: - SelectionStep
+"selectionStep.title.universe" = "Вселенная";
+"selectionStep.title.characters" = "Персонажи";
+"selectionStep.title.events" = "События";
+"selectionStep.title.moral" = "Урок";
+"selectionStep.info.universe" = "Выберите вселенную";
+"selectionStep.info.characters" = "Выберите персонажей";
+"selectionStep.info.events" = "Выберите события";
+"selectionStep.info.moral" = "Выберите урок";
+"selectionStep.randomText.universe" = "Случайная вселенная";
+"selectionStep.randomText.characters" = "Случайные персонажи";
+"selectionStep.randomText.events" = "Случайные события";
+"selectionStep.randomText.moral" = "Случайный урок";
+"selectionStep.next" = "далее";
+
+// MARK: - Onboarding
+"onboarding.continue" = "Продолжить";
+"onboarding.letsStart" = "Поехали!";
+"onboarding.firstPageTitle" = "Добро пожаловать в Magic Journeys";
+"onboarding.firstPageDesc" = "Создавайте волшебные сказки, выбирая вселенную, персонажей и события. Дайте волю своему воображению!";
+"onboarding.secondPageDesc" = "Откройте для себя чудо сказочных миров. Погрузитесь в очаровательные истории, которые оживают с каждым словом.";
+"onboarding.thirdPageDesc" = "Создайте сокровищницу заветных воспоминаний. Сохраняйте любимые истории в своей личной библиотеке, чтобы переживать волшебство снова и снова.";
+
+// MARK: - Library
+"library.title" = "Мои истории";
+"library.empty.title" = "Здесь пока нет историй...";
+"library.empty.subtitle" = "Давай творить!";
+
+// MARK: - MakeStory
+"makeStrory.letsCreate" = "Давай\nпридумаем\nтвою\nисторию";
+
+// MARK: - Story
+"story.save.button" = "сохранить";
+"story.saved.button" = "сохранено";
+
+// MARK: - Subscription
+"subscription.getPremium" = "Приобрести\nпремиум";
+"subscription.unlockTheMiracle" = "Откройте для себя чудо Magic Journeys\nс премиум-подпиской! Получите\nнеограниченный доступ к созданию историй и\nбесконечное место в вашей библиотеке!";
+"subscription.freeTrial" = "3 дня бесплатно";
+"subscription.freeStoryCreationsLeft" = "Осталось бесплатных историй: %@";
+"subscription.freeStoryCreationLeft" = "У вас осталось 1 бесплатное создание истории";
+"subscription.noFreeCreationsLeft" = "У вас не осталось бесплатных историй";
+"subscription.privacyPolicy" = "Политика\nконфиденц-ти";
+"subscription.restorePurchases" = "Восстановить\nпокупки";
+"subscription.termsOfUse" = "Условия\nиспользования";
+"subscription.allSet" = "У вас все настроено!";
+"subscription.congratulations" = "Поздравляем! Вы открыли неограниченное создание историй!";
+"subscription.letsGo" = "Поехали!";
+"subscription.noPurchasesFound" = "Покупки не найдены";
+"subscription.noInfoAboutAnyPurchases" = "Мы не нашли никакой информации о ваших покупках в Magic Journeys. Пожалуйста, свяжитесь со службой поддержки для получения дополнительной информации.";
+"subscription.somethingWentWrong" = "Что-то пошло не так";
+"subscription.tryAgainLater" = "Пожалуйста, попробуйте позже";
+"subscription.day" = "день";
+"subscription.week" = "неделя";
+"subscription.month" = "месяц";
+"subscription.year" = "год";
+"subscription.daily" = "в день";
+"subscription.weekly" = "в неделю";
+"subscription.monthly" = "в месяц";
+"subscription.yearly" = "в год";
+
+// MARK: - Facts
+"facts.brothersGrimm" = "Братья Гримм были немецкими учеными, которые собирали сказки, такие как \"Золушка\" и \"Гензель и Гретель\".";
+"facts.hansChristianAndersen" = "Ханс Христиан Андерсен, из Дании, написал \"Русалочку\" и \"Гадкого утенка\".";
+"facts.aesopLessons" = "Эзоп, древнегреческий рассказчик, писал басни с героями животными и моральными уроками.";
+"facts.charlesPerrault" = "Шарль Перро, француз, подарил нам \"Золушку\" и \"Красную Шапочку\".";
+"facts.lewisCarroll" = "Льюис Кэрролл из Великобритании создал чудесный мир \"Приключений Алисы в Стране Чудес\".";
+"facts.barrie" = "Дж.М. Барри, шотландский писатель, познакомил нас с \"Питером Пэном\" и \"Неверлендом\".";
+"facts.beatrixPotter" = "Беатрикс Поттер, английская писательница, написала очаровательные рассказы, такие как \"Сказка о Питере Кролике\".";
+"facts.milne" = "А.А. Милн, еще один английский писатель, создал истории о приключениях Винни-Пуха.";
+"facts.frankBaum" = "Л. Фрэнк Баум, американец, увлек нас волшебной страной Оз в \"Волшебнике Изумрудного Города\".";
+"facts.oscarWilde" = "Оскар Уайльд, ирландский писатель, поделился с нами \"Счастливым принцем\" и другими волшебными историями.";
+"facts.tolkien" = "Дж.Р.Р. Толкин из Англии написал \"Хоббита\", рассказ о приключениях хоббита.";
+"facts.roaldDahl" = "Роальд Даль, писатель из Уэльса, создал незабываемых персонажей, таких как Матильда и Вилли Вонка.";
+"facts.drSeuss" = "Доктор Сьюсс, или Теодор Гейзель, написал \"Кот в шляпе\".";
+"facts.rowling" = "Дж.К. Роулинг, британская писательница, подарила нам волшебный мир Гарри Поттера.";
+"facts.theLittleEngine" = "\"Маленький паровозик, который смог\" учит нас силе настойчивости.";
+"facts.theSnowQueen" = "Андерсеновской \"Снежной королевой\" вдохновлялись при создании мультфильма \"Холодное сердце\".";
+"facts.aesopBoy" = "Эзоповский \"Мальчик, который кричал \"Волк!\"\" учит важности честности.";
+
+// MARK: - Errors
+"errors.failedToLoadProducts" = "Не удалось загрузить подписки";
+"errors.failedToBuyProduct" = "FНе удалось приобрести подписку";
+"errors.failedToRestorePurchases" = "Не удалось восстановить подписки";
+"errors.failedToCreateStory" = "Не удалось создать историю";
+"errors.tryAgainOrContactSupport" = "Пожалуйста, попробуйте позжа или свяжитесь с поддержкой";
+
+// MARK: - Gender
+"gender.boy" = "мальчик";
+"gender.girl" = "девочка";
+
+// MARK: - Universe Name
+"universe.name.piratesParadise" = "Пиратский Рай";
+"universe.name.dinoIsland" = "Дино Остров";
+"universe.name.candyLand" = "Страна Сладостей";
+"universe.name.animalFarm" = "Ферма Чудес";
+"universe.name.wizardSchool" = "Школа Волшебства";
+"universe.name.princessCastle" = "Замок Принцессы";
+"universe.name.mistwood" = "Миствуд";
+
+// MARK: - Universe Prompt Desription
+"universe.prompt.description.piratesParadise" = "вселенной пиратов";
+"universe.prompt.description.dinoIsland" = "вселенной динозавров";
+"universe.prompt.description.candyLand" = "вселенной сладостей и конфет";
+"universe.prompt.description.animalFarm" = "вселенной животных, которые живут на ферме с фермером";
+"universe.prompt.description.wizardSchool" = "вселенной школы для юных волшебников и ведьм";
+"universe.prompt.description.princessCastle" = "вселенной принцесс из классической сказки";
+"universe.prompt.description.mistwood" = "вселенной фантастических существ, таких как эльфы, гномы, орки и т.д.";
+
+// MARK: - Moral Name
+"moral.name.neverGiveUp" = "Никогда не сдаваться";
+"moral.name.thinkBeforeAct" = "Думать прежде чем сделать";
+"moral.name.respectOthers" = "Уважать других";
+"moral.name.alwaysBeKind" = "Всегда быть добрым";
+"moral.name.beHonest" = "Быть честным";
+"moral.name.industriousness" = "Трудолюбие";
+"moral.name.learningToForgive" = "Учиться прощать";
+"moral.name.friendship" = "Дружба";
+"moral.name.modesty" = "Скромность";
+
+// MARK: - Event Description
+"event.description.shipwreck" = "Кораблекрушение";
+"event.description.exploreDesertIsland" = "Исследование необитаемого острова";
+"event.description.findingTreasureChest" = "Поиск сундука с сокровищами";
+"event.description.seaBattle" = "Морской бой";
+"event.description.raidingPort" = "Разорение порта";
+"event.description.iceAge" = "Ледниковый период";
+"event.description.encounterNeanderthals" = "Встреча с неандертальцами";
+"event.description.volcanoEruption" = "Извержение вулкана";
+"event.description.timeTravel" = "Путешествие во времени";
+"event.description.explorationOfNewFruits" = "Изучение новых фруктов";
+"event.description.savingCityFromMelting" = "Спасение тающей страны";
+"event.description.buildingGingerbreadHouse" = "Постройка пряничного дома";
+"event.description.journeyAlongChocolateRiver" = "Путешествие по шоколадной реке";
+"event.description.sweetSodaRain" = "Дождь из сладкой газировки";
+"event.description.warWithSourKingdom" = "Война с Кислым Королевством";
+"event.description.wolfPackAttack" = "Нападение стаи Волков";
+"event.description.assistingFarmer" = "Помощь фермеру";
+"event.description.rescuingHarvest" = "Спасение урожая";
+"event.description.tractorRepair" = "Починка трактора";
+"event.description.piggyBirthday" = "День рождения Свинки";
+"event.description.broomstickFlight" = "Полет на метле";
+"event.description.potionBrewing" = "Приготовление зелья";
+"event.description.learningSpells" = "Изучение заклинаний";
+"event.description.duelAgainstDarkWizard" = "Дуэль против темного волшебника";
+"event.description.visitHauntedHouse" = "Посещение дома с привидениями";
+"event.description.imprisonmentInHighTower" = "Заточение в высокой башне";
+"event.description.enteringMagicalForest" = "Попадание в волшебный лес";
+"event.description.friendshipWithWoodlandCreatures" = "Дружба с лесными жителями";
+"event.description.ball" = "Балл";
+"event.description.meetingFairy" = "Знакомство с феей";
+"event.description.greatBattle" = "Великое сражение";
+"event.description.captureByTrolls" = "Попадание в плен к троллям";
+"event.description.questForElvenRelics" = "Поиски реликвий эльфов";
+"event.description.exploringGoblinDungeon" = "Проникновение в подземелье гоблинов";
+"event.description.overcomingDarkForest" = "Преодоление Темного Леса";
+
+// MARK: - Character Name
+"character.name.parrot" = "Попугай";
+"character.name.piratesCaptain" = "Капитан пиратов";
+"character.name.commodoreOfRoyalNavy" = "Коммодор Королевского флота";
+"character.name.youngPirate" = "Молодой пират";
+"character.name.piratesCaptainDaughter" = "Дочь пиратского капитана";
+"character.name.rexie" = "Рекси";
+"character.name.ptero" = "Птеро";
+"character.name.diplo" = "Дипло";
+"character.name.polly" = "Полли";
+"character.name.tricey" = "Трайси";
+"character.name.gingy" = "Пряничный человечек";
+"character.name.marshmallowGuy" = "Зефиря";
+"character.name.cottonCandyCloud" = "Сахарное Облачко";
+"character.name.choccoFroggo" = "Шокожаб";
+"character.name.missStrawberry" = "Леди Ягодка";
+"character.name.sheep" = "Овечка";
+"character.name.puppy" = "Щенок";
+"character.name.kitty" = "Котенок";
+"character.name.donkey" = "Осел";
+"character.name.hen" = "Курица";
+"character.name.youngWizard" = "Молодой волшебник";
+"character.name.youngWitch" = "Молодая волшебница";
+"character.name.potionsMaster" = "Мастер зельеварения";
+"character.name.schoolHeadmaster" = "Директор школы";
+"character.name.ghost" = "Призрак";
+"character.name.princess" = "Принцесса";
+"character.name.kingAndQueen" = "Король и королева";
+"character.name.prince" = "Принц";
+"character.name.whiteHorse" = "Белая лошадь";
+"character.name.dragon" = "Дракон";
+"character.name.dwarf" = "Гном";
+"character.name.elf" = "Эльф";
+"character.name.knight" = "Рыцарь";
+"character.name.orc" = "Орк";
+"character.name.wizard" = "Волшебник";
+
+// MARK: - Character Prompt Desription
+"character.prompt.description.parrot" = "говорящий пиратский попугай";
+"character.prompt.description.piratesCaptain" = "Капитан пиратов";
+"character.prompt.description.commodoreOfRoyalNavy" = "Коммодор Королевского флота";
+"character.prompt.description.youngPirate" = "Молодой пират";
+"character.prompt.description.piratesCaptainDaughter" = "Дочь капитана пиратов";
+"character.prompt.description.rexie" = "тираннозавр по имени Рекси";
+"character.prompt.description.ptero" = "птеродактиль по имени Птеро";
+"character.prompt.description.diplo" = "диплодок по имени Дипло";
+"character.prompt.description.polly" = "плезиозавр по имени Полли";
+"character.prompt.description.tricey" = "трицератопс по имени Трайси";
+"character.prompt.description.gingy" = "Пряничный Человечек";
+"character.prompt.description.marshmallowGuy" = "парень из зефира по имени Зефиря";
+"character.prompt.description.cottonCandyCloud" = "облако из сладкой ваты по имени Сахарное Облачко";
+"character.prompt.description.choccoFroggo" = "шоколадная лягушка по имени Шокожаб";
+"character.prompt.description.missStrawberry" = "Леди Ягодка";
+"character.prompt.description.sheep" = "Овечка";
+"character.prompt.description.puppy" = "Щенок";
+"character.prompt.description.kitty" = "Котенок";
+"character.prompt.description.donkey" = "Осел";
+"character.prompt.description.hen" = "Курица";
+"character.prompt.description.youngWizard" = "Молодой волшебник";
+"character.prompt.description.youngWitch" = "Молодая волшебница";
+"character.prompt.description.potionsMaster" = "Мастер зельеварения";
+"character.prompt.description.schoolHeadmaster" = "Директор школы";
+"character.prompt.description.ghost" = "Призрак";
+"character.prompt.description.princess" = "Принцесса";
+"character.prompt.description.kingAndQueen" = "король и королева";
+"character.prompt.description.prince" = "Принц";
+"character.prompt.description.whiteHorse" = "Белая лошадь";
+"character.prompt.description.dragon" = "Дракон";
+"character.prompt.description.dwarf" = "Гном";
+"character.prompt.description.elf" = "Эльф";
+"character.prompt.description.knight" = "Рыцарь";
+"character.prompt.description.orc" = "Орк";
+"character.prompt.description.wizard" = "Волшебник";
+
+// MARK: - Add Character
+"addCharacter.addYourselfAsCharacter" = "Добавьте себя как персонажа";
+"addCharacter.genderDisclaimer" = "Пол используется для выбора местоимений в истории.";
+"addCharacter.enterName" = "Введите имя";
+"addCharacter.selectGender" = "Выберите пол";
+"addCharacter.girl" = "девочка";
+"addCharacter.boy" = "мальчик";
+"addCharacter.save" = "Сохранить";
+
+// MARK: - Story Creation Service
+// Custom Characters Subprompt
+"storyCreationService.childrenForWhom" = "дети для которых";
+"storyCreationService.childForWhom" = "ребенок для которого";
+// p0 - Custom Characters List
+// p1 - Custom Characters Subprompt
+"storyCreationService.customCharactersSubPrompt" = " и %@ - %@ генерируется история";
+// p0 - Universe Prompt Description
+// p1 - Main Characters List
+// p2 - Additional Characters Subprompt
+// p3 - Events List
+// p4 - Moral Prompt Description
+"storyCreationService.prompt" = "Сгенерируй сказку на ночь объемом около 1000 слов. Не включай никакого сексуального или оскорбительного содержания. Все символы '\n' в истории должны быть записаны как '\\n'. История рассчитана на детей 3-5 лет. Действие истории должно происходить во %@. Главные герои: %@%@. История должна включать следующие события: %@. В истории должна быть следующая мораль: %@.";
+
+// MARK: - Story Creation
+"storyCreation.thisWillTakeLittleTime" = "Это займет немного времени";
+"storyCreation.creatingTheStory" = "Создание истории...";

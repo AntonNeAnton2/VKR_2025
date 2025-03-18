@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Сountryhouse.ttf">
+            <string>mr_CountryhouseG</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectionStepViewController">
+            <connections>
+                <outlet property="collectionView" destination="dxf-pJ-Zq8" id="a3r-Id-WdH"/>
+                <outlet property="nextButton" destination="wqX-28-vAq" id="DXI-wg-8dj"/>
+                <outlet property="stepInfoLabel" destination="Kqp-FM-SSU" id="SXI-Fy-buD"/>
+                <outlet property="stepProgressImageView" destination="L6x-Vs-7FO" id="FXn-hP-oTa"/>
+                <outlet property="stepTitleLabel" destination="QuL-hf-BbG" id="IDD-ZL-mKL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step-background" translatesAutoresizingMaskIntoConstraints="NO" id="5VS-aw-62C">
+                    <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuL-hf-BbG">
+                    <rect key="frame" x="177" y="59" width="76" height="51.666666666666657"/>
+                    <fontDescription key="fontDescription" name="mr_CountryhouseG" family="mr_CountryhouseG" pointSize="36"/>
+                    <color key="textColor" name="E7EA73"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqX-28-vAq">
+                    <rect key="frame" x="361" y="61.333333333333343" width="39" height="47"/>
+                    <fontDescription key="fontDescription" name="mr_CountryhouseG" family="mr_CountryhouseG" pointSize="24"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="next">
+                        <color key="titleColor" name="E7EA73"/>
+                    </state>
+                    <connections>
+                        <action selector="nextButtonTapped:" destination="-1" eventType="touchUpInside" id="wCK-iN-rBl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQE-dI-SJx">
+                    <rect key="frame" x="30" y="63" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="D7X-cB-xaP"/>
+                        <constraint firstAttribute="width" constant="44" id="Xgl-hE-5I3"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="back-button"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="h15-jZ-ggR"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqp-FM-SSU">
+                    <rect key="frame" x="196" y="110.66666666666667" width="38.333333333333343" height="17.333333333333329"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <color key="textColor" name="E7EA73"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L6x-Vs-7FO">
+                    <rect key="frame" x="188.66666666666666" y="138" width="53" height="8"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="53" id="BD1-qE-zsS"/>
+                        <constraint firstAttribute="height" constant="8" id="lyh-40-eOV"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pb6-xe-zgn">
+                    <rect key="frame" x="30" y="158" width="370" height="1"/>
+                    <color key="backgroundColor" name="E7EA73"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Ykj-jD-Hf9"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="dxf-pJ-Zq8">
+                    <rect key="frame" x="15" y="159" width="400" height="773"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Ome-Pj-p8p">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="L6x-Vs-7FO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0wJ-lE-HaW"/>
+                <constraint firstItem="L6x-Vs-7FO" firstAttribute="top" secondItem="Kqp-FM-SSU" secondAttribute="bottom" constant="10" id="1PQ-bl-1Yq"/>
+                <constraint firstItem="QuL-hf-BbG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4GX-5C-B9G"/>
+                <constraint firstItem="QuL-hf-BbG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="972-ZK-NlQ"/>
+                <constraint firstItem="Pb6-xe-zgn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="A2M-iu-onq"/>
+                <constraint firstItem="hQE-dI-SJx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="Ho3-EO-UR9"/>
+                <constraint firstItem="Kqp-FM-SSU" firstAttribute="top" secondItem="QuL-hf-BbG" secondAttribute="bottom" id="PhH-yB-E62"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wqX-28-vAq" secondAttribute="trailing" constant="30" id="Rig-4i-hNC"/>
+                <constraint firstAttribute="trailing" secondItem="5VS-aw-62C" secondAttribute="trailing" id="TJM-M7-2mz"/>
+                <constraint firstItem="5VS-aw-62C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Uf0-he-FeH"/>
+                <constraint firstItem="Kqp-FM-SSU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UsT-8N-3fn"/>
+                <constraint firstItem="hQE-dI-SJx" firstAttribute="centerY" secondItem="QuL-hf-BbG" secondAttribute="centerY" id="VtX-5f-7Cs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dxf-pJ-Zq8" secondAttribute="trailing" constant="15" id="hv8-CC-Lju"/>
+                <constraint firstItem="dxf-pJ-Zq8" firstAttribute="top" secondItem="Pb6-xe-zgn" secondAttribute="bottom" id="i1i-1e-gCJ"/>
+                <constraint firstItem="dxf-pJ-Zq8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="isf-WH-Geh"/>
+                <constraint firstItem="5VS-aw-62C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="llD-Lv-gWd"/>
+                <constraint firstItem="Pb6-xe-zgn" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lob-pb-4La"/>
+                <constraint firstItem="wqX-28-vAq" firstAttribute="centerY" secondItem="QuL-hf-BbG" secondAttribute="centerY" id="p0X-WO-BI0"/>
+                <constraint firstAttribute="bottom" secondItem="dxf-pJ-Zq8" secondAttribute="bottom" id="pLd-PR-pU3"/>
+                <constraint firstItem="Pb6-xe-zgn" firstAttribute="top" secondItem="L6x-Vs-7FO" secondAttribute="bottom" constant="12" id="pxy-LN-zxA"/>
+                <constraint firstAttribute="bottom" secondItem="5VS-aw-62C" secondAttribute="bottom" id="uLe-9Q-hV0"/>
+            </constraints>
+            <point key="canvasLocation" x="-692.09302325581393" y="-10.300429184549357"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-button" width="38" height="25"/>
+        <image name="step-background" width="3072" height="4098"/>
+        <namedColor name="E7EA73">
+            <color red="0.90600001811981201" green="0.9179999828338623" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

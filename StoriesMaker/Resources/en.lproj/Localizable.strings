@@ -1,0 +1,278 @@
+"library" = "Library";
+"new" = "New";
+
+// MARK: - Settings
+"settings.settings" = "Settings";
+"settings.help" = "Help";
+"settings.rateUs" = "Rate Us";
+"settings.shareApp" = "Share App";
+"settings.changeLanguage" = "Change Language";
+"settings.changeLanguageAlertMessage" = "To change the language of the app, go to device Settings";
+"settings.privacyAndTerms" = "Privacy Policy & Terms of Use";
+"settings.privacyPolicy" = "Privacy Policy";
+"settings.termsOfUse" = "Terms of Use";
+"settings.cancel" = "Cancel";
+"settings.failedToCompose" = "Failed to compose an email";
+"settings.pleaseSendToAddress" = "Please send an email to the following address: %@";
+"settings.email.subject" = "Magic Journeys issue";
+"settings.email.body" = "<p>Hello, Magic Journeys team! Please help me to resolve my issue:</p><p>❗DESCRIBE YOUR ISSUE HERE❗</p>";
+
+// MARK: - SelectionStep
+"selectionStep.title.universe" = "Universe";
+"selectionStep.title.characters" = "Characters";
+"selectionStep.title.events" = "Events";
+"selectionStep.title.moral" = "Moral";
+"selectionStep.info.universe" = "Select a universe";
+"selectionStep.info.characters" = "Select characters";
+"selectionStep.info.events" = "Select events";
+"selectionStep.info.moral" = "Select a moral";
+"selectionStep.randomText.universe" = "Random universe";
+"selectionStep.randomText.characters" = "Random characters";
+"selectionStep.randomText.events" = "Random events";
+"selectionStep.randomText.moral" = "Random moral";
+"selectionStep.next" = "next";
+
+// MARK: - Onboarding
+"onboarding.continue" = "Continue";
+"onboarding.letsStart" = "Let's start!";
+"onboarding.firstPageTitle" = "Welcome to Magic Journeys";
+"onboarding.secondPageTitle" = "Save tales, create your own unique library";
+"onboarding.thirdPageTitle" = "Experience the wonder of imaginary worlds";
+"onboarding.firstPageDesc" = "Create magical fairytales by choosing your universe, characters, and events. Let your imagination soar!";
+"onboarding.secondPageDesc" = "Build a treasure trove of cherished memories. Save your favorite stories in your personal library to relive the magic again and again.";
+"onboarding.thirdPageDesc" = "Dive into enchanting stories that come to life with every word with no limitations after a 3-day trial for %@ per week";
+
+// MARK: - Library
+"library.title" = "My stories";
+"library.empty.title" = "There are no stories here yet...";
+"library.empty.subtitle" = "Let’s create!";
+
+// MARK: - MakeStory
+"makeStrory.letsCreate" = "Let's\ncreate\nyour\nstory";
+
+// MARK: - Story
+"story.save.button" = "save";
+"story.saved.button" = "saved";
+
+// MARK: - Subscription
+"subscription.getPremium" = "Get premium";
+"subscription.unlockTheMiracle" = "Unlock the miracle of Magic Journeys\nwith premium subscription! Get\nunlimited access to stories creation and\nendless space on your library shelf!";
+"subscription.freeTrial" = "3-Day Free Trial";
+"subscription.freeStoryCreationsLeft" = "You have %@ free story creations left";
+"subscription.freeStoryCreationLeft" = "You have 1 free story creation left";
+"subscription.noFreeCreationsLeft" = "You have no free story creations left";
+"subscription.privacyPolicy" = "Privacy Policy";
+"subscription.restorePurchases" = "Restore Purchases";
+"subscription.termsOfUse" = "Terms of Use";
+"subscription.allSet" = "You are all set!";
+"subscription.congratulations" = "Congratulations! You have unlocked the unlimited creation of stories!";
+"subscription.letsGo" = "Let's Go!";
+"subscription.noPurchasesFound" = "No purchases found";
+"subscription.noInfoAboutAnyPurchases" = "We did not find any information about your purchases in Magic Journeys. Please contact support for more info.";
+"subscription.somethingWentWrong" = "Something went wrong";
+"subscription.tryAgainLater" = "Please, try again later";
+"subscription.day" = "day";
+"subscription.week" = "week";
+"subscription.month" = "month";
+"subscription.year" = "year";
+"subscription.daily" = "Daily";
+"subscription.weekly" = "Weekly";
+"subscription.monthly" = "Monthly";
+"subscription.yearly" = "Yearly";
+
+// MARK: - Facts
+"facts.brothersGrimm" = "Brothers Grimm were German scholars who collected fairy tales like \"Cinderella\" and \"Hansel and Gretel.\"";
+"facts.hansChristianAndersen" = "Hans Christian Andersen, from Denmark, wrote \"The Little Mermaid\" and \"The Ugly Duckling.\"";
+"facts.aesopLessons" = "Aesop, an ancient Greek storyteller, wrote fables with animal characters and moral lessons.";
+"facts.charlesPerrault" = "Charles Perrault, a Frenchman, gave us \"Cinderella\" and \"Little Red Riding Hood.\"";
+"facts.lewisCarroll" = "Lewis Carroll, from Britain, created the whimsical world of \"Alice's Adventures in Wonderland.\"";
+"facts.barrie" = "J.M. Barrie, a Scottish author, introduced us to \"Peter Pan\" and Neverland.";
+"facts.beatrixPotter" = "Beatrix Potter, an English artist, wrote charming tales like \"The Tale of Peter Rabbit.\"";
+"facts.milne" = "A.A. Milne, another English writer, crafted tales of Winnie the Pooh's adventures.";
+"facts.frankBaum" = "L. Frank Baum, an American, took us to the magical land of Oz in \"The Wizard of Oz.\"";
+"facts.oscarWilde" = "Oscar Wilde, an Irish author, shared \"The Happy Prince\" and other enchanting stories.";
+"facts.tolkien" = "J.R.R. Tolkien, from England, wrote \"The Hobbit,\" a tale of a hobbit's adventure.";
+"facts.roaldDahl" = "Roald Dahl, a Welsh author, created unforgettable characters like Matilda and Willy Wonka.";
+"facts.drSeuss" = "Dr. Seuss, or Theodor Geisel, wrote rhyming classics like \"The Cat in the Hat.\"";
+"facts.rowling" = "J.K. Rowling, a British author, gave us the magical world of Harry Potter.";
+"facts.theLittleEngine" = "\"The Little Engine That Could\" teaches us the power of perseverance.";
+"facts.theSnowQueen" = "Andersen's \"The Snow Queen\" inspired Disney's \"Frozen\" movie.";
+"facts.aesopBoy" = "Aesop's \"The Boy Who Cried Wolf\" teaches the importance of honesty.";
+
+// MARK: - Errors
+"errors.failedToLoadProducts" = "Failed to Load Products";
+"errors.failedToBuyProduct" = "Failed to Buy Product";
+"errors.failedToRestorePurchases" = "Failed to Restore Purchases";
+"errors.failedToCreateStory" = "Failed to Create Story";
+"errors.tryAgainOrContactSupport" = "Please try again later or contact support.";
+
+// MARK: - Gender
+"gender.boy" = "boy";
+"gender.girl" = "girl";
+
+// MARK: - Universe Name
+"universe.name.piratesParadise" = "Pirates' Paradise";
+"universe.name.dinoIsland" = "Dino island";
+"universe.name.candyLand" = "Candy Land";
+"universe.name.animalFarm" = "Animal Farm";
+"universe.name.wizardSchool" = "Wizard School";
+"universe.name.princessCastle" = "Princess Castle";
+"universe.name.mistwood" = "Mistwood";
+
+// MARK: - Universe Prompt Desription
+"universe.prompt.description.piratesParadise" = "the universe of pirates";
+"universe.prompt.description.dinoIsland" = "the dinosaurs universe";
+"universe.prompt.description.candyLand" = "the universe of sweets and candies";
+"universe.prompt.description.animalFarm" = "the universe of animals which live on a farm with a farmer";
+"universe.prompt.description.wizardSchool" = "the universe of wizard school for young wizards and witches";
+"universe.prompt.description.princessCastle" = "the universe of princess from a classic fairytale";
+"universe.prompt.description.mistwood" = "the universe of fantasy creatures, such as elfs, dwarfs, orcs, etc.";
+
+// MARK: - Moral Name
+"moral.name.neverGiveUp" = "Never give up";
+"moral.name.thinkBeforeAct" = "Think before you act";
+"moral.name.respectOthers" = "Respect others";
+"moral.name.alwaysBeKind" = "Always be kind";
+"moral.name.beHonest" = "Be honest";
+"moral.name.industriousness" = "Industriousness";
+"moral.name.learningToForgive" = "Learning to forgive";
+"moral.name.friendship" = "Friendship";
+"moral.name.modesty" = "Modesty";
+
+// MARK: - Event Description
+"event.description.shipwreck" = "Shipwreck";
+"event.description.exploreDesertIsland" = "Explore a desert island";
+"event.description.findingTreasureChest" = "Finding a treasure chest";
+"event.description.seaBattle" = "Sea battle";
+"event.description.raidingPort" = "Raiding a port";
+"event.description.iceAge" = "Ice Age";
+"event.description.encounterNeanderthals" = "Encounter with Neanderthals";
+"event.description.volcanoEruption" = "Volcano eruption";
+"event.description.timeTravel" = "Time travel";
+"event.description.explorationOfNewFruits" = "Exploration of new fruits";
+"event.description.savingCityFromMelting" = "Saving a city from melting down";
+"event.description.buildingGingerbreadHouse" = "Building a gingerbread house";
+"event.description.journeyAlongChocolateRiver" = "Journey along the Chocolate River";
+"event.description.sweetSodaRain" = "Sweet soda rain";
+"event.description.warWithSourKingdom" = "War with the Sour Kingdom";
+"event.description.wolfPackAttack" = "Wolf pack attack";
+"event.description.assistingFarmer" = "Assisting the farmer";
+"event.description.rescuingHarvest" = "Rescuing the harvest";
+"event.description.tractorRepair" = "Tractor repair";
+"event.description.piggyBirthday" = "Piggy’s birthday";
+"event.description.broomstickFlight" = "Broomstick flight";
+"event.description.potionBrewing" = "Potion brewing";
+"event.description.learningSpells" = "Learning spells";
+"event.description.duelAgainstDarkWizard" = "Duel against a dark wizard";
+"event.description.visitHauntedHouse" = "Visit to a haunted house";
+"event.description.imprisonmentInHighTower" = "Imprisonment in a high tower";
+"event.description.enteringMagicalForest" = "Entering a magical forest";
+"event.description.friendshipWithWoodlandCreatures" = "Friendship with woodland creatures";
+"event.description.ball" = "Ball";
+"event.description.meetingFairy" = "Meeting a fairy";
+"event.description.greatBattle" = "Great battle";
+"event.description.captureByTrolls" = "Capture by trolls";
+"event.description.questForElvenRelics" = "Quest for elven relics";
+"event.description.exploringGoblinDungeon" = "Exploring a goblin dungeon";
+"event.description.overcomingDarkForest" = "Overcoming the Dark Forest";
+
+// MARK: - Character Name
+"character.name.parrot" = "Parrot";
+"character.name.piratesCaptain" = "Pirates' Captain";
+"character.name.commodoreOfRoyalNavy" = "Commodore of Royal Navy";
+"character.name.youngPirate" = "Young Pirate";
+"character.name.piratesCaptainDaughter" = "Pirates' Captain's Daughter";
+"character.name.rexie" = "Rexie";
+"character.name.ptero" = "Ptero";
+"character.name.diplo" = "Diplo";
+"character.name.polly" = "Polly";
+"character.name.tricey" = "Tricey";
+"character.name.gingy" = "Gingy";
+"character.name.marshmallowGuy" = "Marshmallow Guy";
+"character.name.cottonCandyCloud" = "Cotton Candy Cloud";
+"character.name.choccoFroggo" = "Chocco Froggo";
+"character.name.missStrawberry" = "Miss Strawberry";
+"character.name.sheep" = "Sheep";
+"character.name.puppy" = "Puppy";
+"character.name.kitty" = "Kitty";
+"character.name.donkey" = "Donkey";
+"character.name.hen" = "Hen";
+"character.name.youngWizard" = "Young Wizard";
+"character.name.youngWitch" = "Young Witch";
+"character.name.potionsMaster" = "Potions Master";
+"character.name.schoolHeadmaster" = "School Headmaster";
+"character.name.ghost" = "Ghost";
+"character.name.princess" = "Princess";
+"character.name.kingAndQueen" = "King and Queen";
+"character.name.prince" = "Prince";
+"character.name.whiteHorse" = "White Horse";
+"character.name.dragon" = "Dragon";
+"character.name.dwarf" = "Dwarf";
+"character.name.elf" = "Elf";
+"character.name.knight" = "Knight";
+"character.name.orc" = "Orc";
+"character.name.wizard" = "Wizard";
+
+// MARK: - Character Prompt Desription
+"character.prompt.description.parrot" = "Pirate's talking parrot";
+"character.prompt.description.piratesCaptain" = "Pirates' captain";
+"character.prompt.description.commodoreOfRoyalNavy" = "Commodore of Royal Navy";
+"character.prompt.description.youngPirate" = "Young Pirate";
+"character.prompt.description.piratesCaptainDaughter" = "Pirates' Captain's Daughter";
+"character.prompt.description.rexie" = "Dinosaur T-Rex named Rexie";
+"character.prompt.description.ptero" = "Dinosaur Pterodactyl named Ptero";
+"character.prompt.description.diplo" = "Dinosaur Diplodocus named Diplo";
+"character.prompt.description.polly" = "Dinosaur Plesiosaur named Polly";
+"character.prompt.description.tricey" = "Dinosaur Triceratops named Tricey";
+"character.prompt.description.gingy" = "Gingerbread Man";
+"character.prompt.description.marshmallowGuy" = "Marshmallow Guy";
+"character.prompt.description.cottonCandyCloud" = "Cotton Candy Cloud";
+"character.prompt.description.choccoFroggo" = "Chocolate frog named Chocco Froggo";
+"character.prompt.description.missStrawberry" = "Ms Strawberry";
+"character.prompt.description.sheep" = "Sheep";
+"character.prompt.description.puppy" = "Puppy";
+"character.prompt.description.kitty" = "Kitty";
+"character.prompt.description.donkey" = "Donkey";
+"character.prompt.description.hen" = "Hen";
+"character.prompt.description.youngWizard" = "Young Wizard";
+"character.prompt.description.youngWitch" = "Young Witch";
+"character.prompt.description.potionsMaster" = "Potions Master";
+"character.prompt.description.schoolHeadmaster" = "School Headmaster";
+"character.prompt.description.ghost" = "Ghost";
+"character.prompt.description.princess" = "Princess";
+"character.prompt.description.kingAndQueen" = "King and Queen";
+"character.prompt.description.prince" = "Prince";
+"character.prompt.description.whiteHorse" = "White Horse";
+"character.prompt.description.dragon" = "Dragon";
+"character.prompt.description.dwarf" = "Dwarf";
+"character.prompt.description.elf" = "Elf";
+"character.prompt.description.knight" = "Knight";
+"character.prompt.description.orc" = "Orc";
+"character.prompt.description.wizard" = "Wizard";
+
+// MARK: - Add Character
+"addCharacter.addYourselfAsCharacter" = "Add yourself as a character";
+"addCharacter.genderDisclaimer" = "The gender is used for pronouns in the story.";
+"addCharacter.enterName" = "Enter name";
+"addCharacter.selectGender" = "Select gender";
+"addCharacter.girl" = "girl";
+"addCharacter.boy" = "boy";
+"addCharacter.save" = "Save";
+
+// MARK: - Story Creation Service
+// Custom Characters Subprompt
+"storyCreationService.childrenForWhom" = "children for whom";
+"storyCreationService.childForWhom" = "child for whom";
+// p0 - Custom Characters List
+// p1 - Custom Characters Subprompt
+"storyCreationService.customCharactersSubPrompt" = " and %@ - %@ the story is generated";
+// p0 - Universe Prompt Description
+// p1 - Main Characters List
+// p2 - Additional Characters Subprompt
+// p3 - Events List
+// p4 - Moral Prompt Description
+"storyCreationService.prompt" = "Generate a bedtime story for ~ 1000 words. Do not include any sexual or offensive content. All '\n' symbols in the story must be written as '\\n'. The story is for 3-5 year old child. The story must take place in %@. Main characters are: %@%@. The story must include following events: %@. The story must have the following moral: %@.";
+
+// MARK: - Story Creation
+"storyCreation.thisWillTakeLittleTime" = "This will take a little time";
+"storyCreation.creatingTheStory" = "Creating the story...";

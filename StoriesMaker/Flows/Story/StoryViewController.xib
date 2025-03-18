@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Сountryhouse.ttf">
+            <string>mr_CountryhouseG</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoryViewController">
+            <connections>
+                <outlet property="saveButton" destination="fXS-NF-l6G" id="wO5-us-91I"/>
+                <outlet property="storyContentLabel" destination="sNh-bl-tyo" id="81B-ZQ-Gk6"/>
+                <outlet property="storyTitleLabel" destination="QwK-fd-BJK" id="xpF-xo-PTU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="step-background" translatesAutoresizingMaskIntoConstraints="NO" id="hJ3-yH-lL7">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzu-5S-IWx">
+                    <rect key="frame" x="30" y="69" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ARD-gE-7Cg"/>
+                        <constraint firstAttribute="width" constant="44" id="Ijh-2M-A0M"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="back-button"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="ku1-7W-Tmu"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QwK-fd-BJK">
+                    <rect key="frame" x="90" y="59" width="213" height="51.666666666666657"/>
+                    <fontDescription key="fontDescription" name="mr_CountryhouseG" family="mr_CountryhouseG" pointSize="36"/>
+                    <color key="textColor" name="E7EA73"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpK-lY-aun">
+                    <rect key="frame" x="30" y="127.66666666666669" width="333" height="724.33333333333326"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNh-bl-tyo">
+                            <rect key="frame" x="0.0" y="30" width="333" height="730.66666666666663"/>
+                            <string key="text">Long, long ago there lived a young and very beautiful girl called Cinderella.Cinderella lived with her stepmother and stepsisters. The sisters were wicked and haughty. They were jealous of Cinderella’s beauty and treated her as a servant.Cinderella had no clothes to wear and no sparkling jewels. But Cinderella was very kind and cheerful and she went about her daily work with a gay smile.One day all the ladies of the kingdom were invited to a ball in honour of the King’s only son. The Prince intended to choose his bride from among those present at the ball.Cinderella had also received an invitation to the ball, but her sisters laughed and said she could not go because she had nothing to wear.“How I wish I could go,” sighed Cinderella.“Back to work,” snapped her sisters. “You will have plenty to do later helping us to prepare for the ball.”And indeed their selfish demands kept Cinderella running back and forth all day.After they had gone, Cinderella felt quite lonely. There was nobody in the whole world who cared for her.Suddenly sweet music filled the air and in the doorway appeared a fairy with a wand in her hand. “I am your godmother, Cinderella,” said the fairy, in a sweet voice. “I have come to grant your heart’s desire. Tonight you will go tothe grand ball. There is no time to lose, for the dancing has already begun.”The fairy waved her wand, and soon there was a wonderful gown for Cinderella to wear. It was made of silvery brocade shimmering as moonlight.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" name="EFEFEF"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sNh-bl-tyo" secondAttribute="bottom" id="BGC-IJ-w9c"/>
+                        <constraint firstAttribute="trailing" secondItem="sNh-bl-tyo" secondAttribute="trailing" id="eRJ-VX-j0w"/>
+                        <constraint firstItem="sNh-bl-tyo" firstAttribute="width" secondItem="UpK-lY-aun" secondAttribute="width" id="iHI-Hc-gNZ"/>
+                        <constraint firstItem="sNh-bl-tyo" firstAttribute="leading" secondItem="UpK-lY-aun" secondAttribute="leading" id="uhl-oi-Ip9"/>
+                        <constraint firstItem="sNh-bl-tyo" firstAttribute="top" secondItem="UpK-lY-aun" secondAttribute="top" constant="30" id="va9-eJ-ks8"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjp-3A-yvK">
+                    <rect key="frame" x="30" y="126.66666666666667" width="333" height="1"/>
+                    <color key="backgroundColor" name="E7EA73"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="bQF-c1-xHy"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXS-NF-l6G">
+                    <rect key="frame" x="332" y="73" width="31" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="2BI-h8-xGd"/>
+                        <constraint firstAttribute="width" constant="31" id="HAe-If-63r"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="save-unselected"/>
+                    <connections>
+                        <action selector="saveButtonTapped:" destination="-1" eventType="touchUpInside" id="F73-7K-Nga"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UpK-lY-aun" secondAttribute="bottom" id="1zU-td-tVp"/>
+                <constraint firstAttribute="bottom" secondItem="hJ3-yH-lL7" secondAttribute="bottom" id="4yT-vG-KJN"/>
+                <constraint firstAttribute="trailing" secondItem="hJ3-yH-lL7" secondAttribute="trailing" id="Eih-DY-l2x"/>
+                <constraint firstItem="fXS-NF-l6G" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="14" id="Fa4-eb-HU2"/>
+                <constraint firstItem="Fzu-5S-IWx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="O16-dK-QWW"/>
+                <constraint firstItem="hJ3-yH-lL7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Qj1-I5-PqU"/>
+                <constraint firstItem="qjp-3A-yvK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="T8I-IC-fph"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fXS-NF-l6G" secondAttribute="trailing" constant="30" id="TPo-if-da9"/>
+                <constraint firstItem="Fzu-5S-IWx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="bkQ-E6-PMS"/>
+                <constraint firstItem="hJ3-yH-lL7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bzL-l2-3Su"/>
+                <constraint firstItem="UpK-lY-aun" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="cLg-5G-vT9"/>
+                <constraint firstItem="UpK-lY-aun" firstAttribute="top" secondItem="qjp-3A-yvK" secondAttribute="bottom" id="cRw-UZ-yPT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UpK-lY-aun" secondAttribute="trailing" constant="30" id="eTT-dq-TwU"/>
+                <constraint firstItem="qjp-3A-yvK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jFB-as-od0"/>
+                <constraint firstItem="qjp-3A-yvK" firstAttribute="top" secondItem="QwK-fd-BJK" secondAttribute="bottom" constant="16" id="jk9-au-OkI"/>
+                <constraint firstItem="QwK-fd-BJK" firstAttribute="leading" secondItem="Fzu-5S-IWx" secondAttribute="trailing" constant="16" id="lpo-32-guz"/>
+                <constraint firstItem="fXS-NF-l6G" firstAttribute="leading" secondItem="QwK-fd-BJK" secondAttribute="trailing" constant="29" id="oIr-Pi-6WX"/>
+                <constraint firstItem="QwK-fd-BJK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tTk-Zr-ygp"/>
+                <constraint firstItem="QwK-fd-BJK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zfK-wf-kDB"/>
+            </constraints>
+            <point key="canvasLocation" x="-692" y="-10"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-button" width="38" height="25"/>
+        <image name="save-unselected" width="31" height="31"/>
+        <image name="step-background" width="3072" height="4098"/>
+        <namedColor name="E7EA73">
+            <color red="0.90600001811981201" green="0.9179999828338623" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EFEFEF">
+            <color red="0.93699997663497925" green="0.93699997663497925" blue="0.93699997663497925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

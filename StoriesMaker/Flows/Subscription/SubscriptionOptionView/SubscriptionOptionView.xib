@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+        <array key="Сountryhouse.ttf">
+            <string>mr_CountryhouseG</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscriptionOptionView" customModule="StoriesMaker" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="5wU-XN-zAi" id="9Yv-YN-in1"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="cwZ-Jq-cYZ"/>
+                <outlet property="lowerStackView" destination="zcy-Jo-eeA" id="oKA-MO-coI"/>
+                <outlet property="separatorView" destination="UZu-a1-jp1" id="6bn-Fv-cRL"/>
+                <outlet property="subscriptionPeriodLabel" destination="RtX-LZ-TFm" id="H7b-Kv-Tdo"/>
+                <outlet property="subscriptionPeriodicityLabel" destination="8Om-vV-gUQ" id="QgI-a4-beq"/>
+                <outlet property="subscriptionPriceLabel" destination="NiZ-dW-clE" id="Z5L-qP-oAi"/>
+                <outlet property="trialPeriodLabel" destination="chO-dl-dZa" id="IBn-KJ-V3R"/>
+                <outlet property="upperStackView" destination="mnT-x4-cAx" id="q6G-Ed-a7o"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="162"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mnT-x4-cAx">
+                    <rect key="frame" x="21.333333333333336" y="22.999999999999996" width="77.333333333333314" height="49.666666666666657"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtX-LZ-TFm">
+                            <rect key="frame" x="0.0" y="0.0" width="77.333333333333329" height="37.333333333333336"/>
+                            <fontDescription key="fontDescription" name="mr_CountryhouseG" family="mr_CountryhouseG" pointSize="26"/>
+                            <color key="textColor" name="E7EA73"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3-Day Free Trial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chO-dl-dZa">
+                            <rect key="frame" x="0.0" y="37.333333333333336" width="77.333333333333329" height="12.333333333333336"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <view hidden="YES" alpha="0.27000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZu-a1-jp1">
+                    <rect key="frame" x="14" y="80.666666666666671" width="92" height="1"/>
+                    <viewLayoutGuide key="safeArea" id="u9p-d8-83X"/>
+                    <color key="backgroundColor" name="E7EA73"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="la7-Ve-cEm"/>
+                    </constraints>
+                </view>
+                <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zcy-Jo-eeA">
+                    <rect key="frame" x="31" y="89.666666666666671" width="58" height="35.666666666666671"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$24,99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiZ-dW-clE">
+                            <rect key="frame" x="0.0" y="0.0" width="58" height="21"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
+                            <color key="textColor" name="E7EA73"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Om-vV-gUQ">
+                            <rect key="frame" x="0.0" y="21" width="58" height="14.666666666666664"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="5wU-XN-zAi">
+                    <rect key="frame" x="41.666666666666664" y="62.666666666666657" width="36.999999999999993" height="37"/>
+                    <color key="color" name="E7EA73"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.14900000393390656" green="0.15700000524520874" blue="0.27099999785423279" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zcy-Jo-eeA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3my-Mc-UUl"/>
+                <constraint firstItem="zcy-Jo-eeA" firstAttribute="top" secondItem="UZu-a1-jp1" secondAttribute="bottom" constant="8" id="5AD-df-wRS"/>
+                <constraint firstItem="UZu-a1-jp1" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.766667" id="Qqb-mw-J3U"/>
+                <constraint firstItem="UZu-a1-jp1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SMl-5U-tHe"/>
+                <constraint firstItem="UZu-a1-jp1" firstAttribute="top" secondItem="mnT-x4-cAx" secondAttribute="bottom" constant="8" id="Z5O-av-H1u"/>
+                <constraint firstItem="5wU-XN-zAi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dev-y5-rxL"/>
+                <constraint firstItem="mnT-x4-cAx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="j9v-AK-LLl"/>
+                <constraint firstItem="UZu-a1-jp1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="pHJ-0X-03Y"/>
+                <constraint firstItem="5wU-XN-zAi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rr0-FE-51x"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-172.51908396946564" y="-208.45070422535213"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="E7EA73">
+            <color red="0.90600001811981201" green="0.9179999828338623" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
