@@ -1,6 +1,0 @@
-framework module Pods_StoriesMaker {
-  umbrella header "Pods-StoriesMaker-umbrella.h"
-
-  export *
-  module * { export * }
-}
